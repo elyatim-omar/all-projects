@@ -1,0 +1,231 @@
+0000.001 (0) Opened log file at time: Wed, 14 Jul 2021 11:01:47 +0000 on http://localhost/assilah/wordpress
+0000.015 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.56 WP: 5.7.2 PHP: 8.0.2 (apache2handler, Windows NT DESKTOP-M3ST2LO 10.0 build 19042 (Windows 10) AMD64) MySQL: 8.0.24 WPLANG: en_US Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/8.0.2 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 44.9M | 6M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.024 (0) Free space on disk containing Updraft's temporary directory: 341426.4 MB
+0000.038 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.049 (0) Semaphore (fd, wp_options) being initialised
+0000.075 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.105 (0) Set semaphore last lock (fd) time to 2021-07-14 11:01:47
+0000.114 (0) Semaphore lock (fd) complete
+0000.142 (0) Backup run: resumption=0, nonce=1c6bf1688d8f, file_nonce=1c6bf1688d8f begun at=1626260507 (0s ago), job type=backup
+0000.160 (0) Scheduling a resumption (1) after 300 seconds (1626260807) in case this run gets aborted
+0000.213 (0) Checking if we have a zip executable available
+0000.233 (0) Creation of backups of directories: beginning
+0000.268 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.292 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\assilah\wordpress/wp-content/updraft/backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp (line 263, C:\xampp\htdocs\assilah\wordpress\wp-content\plugins\updraftplus\backup.php)
+0003.724 (0) Total entities for the zip file: 550 directories, 2837 files (0 skipped as non-modified), 66.6 MB
+0003.732 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3548, C:\xampp\htdocs\assilah\wordpress\wp-content\plugins\updraftplus\backup.php)
+0003.744 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.916 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 100 files added (on-disk size: 112.3 KB)
+0004.015 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 200 files added (on-disk size: 112.3 KB)
+0004.117 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 300 files added (on-disk size: 112.3 KB)
+0004.253 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 400 files added (on-disk size: 112.3 KB)
+0004.355 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 500 files added (on-disk size: 112.3 KB)
+0004.442 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 600 files added (on-disk size: 112.3 KB)
+0004.499 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.6 MB, 2837 files batched, 646 (647) added so far); re-opening (prior size: 112.3 KB)
+0017.802 (0) A useful amount of data was added after this amount of zip processing: 14.1 s (normalised: 13.8 s, rate: 1859.3 KB/s)
+0017.919 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 700 files added (on-disk size: 9205.4 KB)
+0018.026 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 800 files added (on-disk size: 9205.4 KB)
+0018.106 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 900 files added (on-disk size: 9205.4 KB)
+0018.196 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 1000 files added (on-disk size: 9205.4 KB)
+0018.308 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 1100 files added (on-disk size: 9205.4 KB)
+0018.397 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 1200 files added (on-disk size: 9205.4 KB)
+0018.479 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 1300 files added (on-disk size: 9205.4 KB)
+0018.576 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 1400 files added (on-disk size: 9205.4 KB)
+0018.661 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 1500 files added (on-disk size: 9205.4 KB)
+0018.748 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 1600 files added (on-disk size: 9205.4 KB)
+0018.803 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.1 MB, 2837 files batched, 1001 (1648) added so far); re-opening (prior size: 9205.4 KB)
+0039.589 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 1700 files added (on-disk size: 15995.4 KB)
+0039.677 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 1800 files added (on-disk size: 15995.4 KB)
+0039.760 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 1900 files added (on-disk size: 15995.4 KB)
+0039.842 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 2000 files added (on-disk size: 15995.4 KB)
+0039.933 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 2100 files added (on-disk size: 15995.4 KB)
+0040.024 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 2200 files added (on-disk size: 15995.4 KB)
+0040.120 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 2300 files added (on-disk size: 15995.4 KB)
+0040.211 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 2400 files added (on-disk size: 15995.4 KB)
+0040.298 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 2500 files added (on-disk size: 15995.4 KB)
+0040.384 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 2600 files added (on-disk size: 15995.4 KB)
+0040.431 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.4 MB, 2837 files batched, 1001 (2649) added so far); re-opening (prior size: 15995.4 KB)
+0044.461 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 2700 files added (on-disk size: 21108.2 KB)
+0044.555 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip.tmp: 2800 files added (on-disk size: 21108.2 KB)
+0045.668 (0) Created plugins zip (0) - 21322.2 KB in 45.4 s (470 KB/s) (sha1: a68a6f88490e8f0d3e2d92433f31ca9d2c0a20e2, sha256: 24b5400402b584196ce7cb0bbc963b8539345960715a0dcc43f8e1eb619f9941)
+0045.686 (0) Beginning creation of dump of themes (split every: 400 MB)
+0045.695 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\assilah\wordpress/wp-content/updraft/backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-themes.zip.tmp (line 263, C:\xampp\htdocs\assilah\wordpress\wp-content\plugins\updraftplus\backup.php)
+0046.853 (0) Total entities for the zip file: 175 directories, 765 files (0 skipped as non-modified), 25.1 MB
+0046.860 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3548, C:\xampp\htdocs\assilah\wordpress\wp-content\plugins\updraftplus\backup.php)
+0046.952 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0047.029 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0047.110 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0047.190 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0047.293 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0047.416 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0047.503 (0) Zip: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0047.550 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 765 files batched, 743 (743) added so far); re-opening (prior size: 0 KB)
+0073.128 (0) A useful amount of data was added after this amount of zip processing: 28.4 s (normalised: 28.3 s, rate: 904.6 KB/s)
+0074.398 (0) Created themes zip (0) - 13967.5 KB in 28.7 s (486.8 KB/s) (sha1: 7aa70ee7c809215b67aaaa103004fc113423bc61, sha256: 5e8d164559503a0fec265dcefcfc4a0590d2878c8d6481b8ff7bb3b9db8fe0a8)
+0074.415 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0074.422 (0) Looking for candidates to backup in: C:\xampp\htdocs\assilah\wordpress/wp-content/uploads
+0074.431 (0) finding files: 2021: adding to list (1)
+0074.437 (0) finding files: colibri: adding to list (2)
+0074.445 (0) finding files: elementor: adding to list (3)
+0074.452 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0074.463 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\assilah\wordpress/wp-content/updraft/backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-uploads.zip.tmp (line 263, C:\xampp\htdocs\assilah\wordpress\wp-content\plugins\updraftplus\backup.php)
+0074.543 (0) Total entities for the zip file: 6 directories, 37 files (0 skipped as non-modified), 9.5 MB
+0074.551 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3548, C:\xampp\htdocs\assilah\wordpress\wp-content\plugins\updraftplus\backup.php)
+0075.088 (0) Created uploads zip (0) - 9326.8 KB in 0.6 s (15211.9 KB/s) (sha1: 8ee36d7d004f37172cc763d85f4997a508261ac7, sha256: df9ea2c0ae0817f96b10d39dfc48b3a47ede1f51cfca57d07230a6bec42aac4d)
+0075.111 (0) Beginning backup of other directories found in the content directory (index: 0)
+0075.120 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0075.128 (0) Looking for candidates to backup in: C:\xampp\htdocs\assilah\wordpress/wp-content
+0075.138 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0075.147 (0) finding files: fonts: adding to list (1)
+0075.156 (0) finding files: index.php: adding to list (2)
+0075.166 (0) finding files: plugins: skipping: this is the plugins directory
+0075.175 (0) finding files: themes: skipping: this is the themes directory
+0075.184 (0) finding files: updraft: skipping: this is the updraft directory
+0075.193 (0) finding files: upgrade: skipping: excluded by options
+0075.202 (0) finding files: uploads: skipping: this is the uploads directory
+0075.215 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\assilah\wordpress/wp-content/updraft/backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-others.zip.tmp (line 263, C:\xampp\htdocs\assilah\wordpress\wp-content\plugins\updraftplus\backup.php)
+0075.266 (0) Total entities for the zip file: 3 directories, 12 files (0 skipped as non-modified), 0.1 MB
+0075.277 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3548, C:\xampp\htdocs\assilah\wordpress\wp-content\plugins\updraftplus\backup.php)
+0075.634 (0) Created others zip (0) - 111 KB in 0.4 s (274.4 KB/s) (sha1: fd72e215bf1468e89e104523fc810a357c970884, sha256: 2cc0d06096a437b9b98cf42a283c7b8cc1be7ff62be94b7bd2e046d067637891)
+0075.674 (0) Saving backup status to database (elements: 8)
+0075.691 (0) Beginning creation of database dump (WordPress DB)
+0075.699 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0075.721 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0\mysqldump.exe
+0076.362 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1248 bytes total)
+0076.380 (0) Binary mysqldump: error (code: 2)
+0076.385 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe
+0076.587 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1248 bytes total)
+0076.607 (0) Binary mysqldump: error (code: 2)
+0076.627 (0) PHP event: code E_WARNING: unlink(C:\xampp\htdocs\assilah\wordpress/wp-content/updraft/ac15961237f6c4109a20544d8d43be14.sqltest.tmp): No such file or directory (line 1672, C:\xampp\htdocs\assilah\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+0076.671 (0) Table wp_options: Total expected rows (approximate): 233
+0076.869 (0) Table wp_options: Rows added in this batch (next record: 1000): 233 (uncompressed bytes in this segment=1826247) in 0.19 seconds
+0076.910 (0) Table wp_options: finishing file(s) (2, 273.9 KB)
+0076.929 (0) Table wp_users: Total expected rows (approximate): 0
+0076.941 (0) Table wp_users: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=1388) in 0.01 seconds
+0076.971 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0076.994 (0) Table wp_usermeta: Total expected rows (approximate): 21
+0077.006 (0) Table wp_usermeta: Rows added in this batch (next record: 1000): 22 (uncompressed bytes in this segment=2012) in 0.00 seconds
+0077.036 (0) Table wp_usermeta: finishing file(s) (2, 1.1 KB)
+0077.057 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0077.070 (0) Table wp_commentmeta: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=677) in 0.01 seconds
+0077.101 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0077.121 (0) Table wp_comments: Total expected rows (approximate): 0
+0077.134 (0) Table wp_comments: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=2117) in 0.01 seconds
+0077.160 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0077.177 (0) Table wp_links: Total expected rows (approximate): 0
+0077.202 (0) Table wp_links: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1298) in 0.02 seconds
+0077.232 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0077.250 (0) Table wp_postmeta: Total expected rows (approximate): 448
+0077.273 (0) Table wp_postmeta: Rows added in this batch (next record: 1000): 471 (uncompressed bytes in this segment=99423) in 0.02 seconds
+0077.294 (0) Table wp_postmeta: finishing file(s) (2, 8.8 KB)
+0077.319 (0) Table wp_posts: Total expected rows (approximate): 241
+0078.074 (0) Table wp_posts: Rows added in this batch (next record: 1000): 260 (uncompressed bytes in this segment=4675853) in 0.75 seconds
+0078.116 (0) Table wp_posts: finishing file(s) (2, 2121.2 KB)
+0078.157 (0) Table wp_term_relationships: Total expected rows (approximate): 9
+0078.192 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 9 (uncompressed bytes in this segment=794) in 0.03 seconds
+0078.235 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0078.262 (0) Table wp_term_taxonomy: Total expected rows (approximate): 2
+0078.287 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=972) in 0.02 seconds
+0078.323 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0078.346 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0078.382 (0) Table wp_termmeta: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=650) in 0.03 seconds
+0078.411 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0078.434 (0) Table wp_terms: Total expected rows (approximate): 2
+0078.447 (0) Table wp_terms: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=814) in 0.01 seconds
+0078.480 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0078.489 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\assilah\wordpress/wp-content/updraft/backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db.gz (line 1816, C:\xampp\htdocs\assilah\wordpress\wp-content\plugins\updraftplus\backup.php)
+0078.501 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_options.table.tmpr1001.gz (1/12): adding to final database dump
+0078.668 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_options.table.gz (2/12): adding to final database dump
+0078.678 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_users.table.tmpr1001.gz (3/12): adding to final database dump
+0078.686 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_users.table.gz (4/12): adding to final database dump
+0078.694 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_usermeta.table.tmpr1001.gz (5/12): adding to final database dump
+0078.703 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_usermeta.table.gz (6/12): adding to final database dump
+0078.711 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_commentmeta.table.tmpr1.gz (7/12): adding to final database dump
+0078.719 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_commentmeta.table.gz (8/12): adding to final database dump
+0078.729 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_comments.table.tmpr1001.gz (9/12): adding to final database dump
+0078.739 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_comments.table.gz (10/12): adding to final database dump
+0078.750 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_links.table.tmpr1.gz (11/12): adding to final database dump
+0078.759 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_links.table.gz (12/12): adding to final database dump
+0078.770 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_postmeta.table.tmpr1001.gz (13/12): adding to final database dump
+0078.787 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_postmeta.table.gz (14/12): adding to final database dump
+0078.796 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_posts.table.tmpr1001.gz (15/12): adding to final database dump
+0079.310 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_posts.table.gz (16/12): adding to final database dump
+0079.317 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_term_relationships.table.tmpr100001.gz (17/12): adding to final database dump
+0079.324 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_term_relationships.table.gz (18/12): adding to final database dump
+0079.331 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_term_taxonomy.table.tmpr1001.gz (19/12): adding to final database dump
+0079.337 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_term_taxonomy.table.gz (20/12): adding to final database dump
+0079.344 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_termmeta.table.tmpr1.gz (21/12): adding to final database dump
+0079.351 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_termmeta.table.gz (22/12): adding to final database dump
+0079.358 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_terms.table.tmpr1001.gz (23/12): adding to final database dump
+0079.364 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db-table-wp_terms.table.gz (24/12): adding to final database dump
+0079.408 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db.gz: finished writing out complete database file (2384 KB)
+0079.544 (0) Total database tables backed up: 12 (backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db.gz, size: 2463413, sha1: 408ac53aa072944c58fcf51fcc4de4c434ccba00, sha256: 0673924a89d6f784e19087a457c0875d3312e8d10df796203643f596a1779adb)
+0079.575 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0079.582 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0079.588 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0079.594 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0079.601 (0) backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0079.607 (0) Saving backup history. Total backup size: 46 MB
+0079.622 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0079.642 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0079.656 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-326f9d93dfc7811302d5c66e9a6decae)
+0080.683 (0) Google Drive: creating path: /UpdraftPlus
+0082.120 (0) Google Drive: quota usage: used=3 MB, total=15360 MB, available=15357 MB
+0082.130 (0) Google Drive: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip: Attempting to upload to Google Drive (into folder id: 1AOuyIMBSsQhm-tE6aUrozLSIN3bOUVRo)
+0083.162 (0) Googledrive chunked upload: 4.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 47.2 / 16)
+0084.127 (0) Googledrive chunked upload: 14.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 47.3 / 16)
+0086.476 (0) Googledrive chunked upload: 33.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 47.3 / 16)
+0088.799 (0) Googledrive chunked upload: 72 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 47.3 / 16)
+0091.549 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0091.569 (0) Google Drive: OK: Archive backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip uploaded in 9.43 seconds
+0091.575 (0) Recording as successfully uploaded: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip
+0091.593 (0) Deleting local file: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-plugins.zip: OK
+0091.968 (0) Google Drive: quota usage: used=23.9 MB, total=15360 MB, available=15336.1 MB
+0091.976 (0) Google Drive: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-themes.zip: Attempting to upload to Google Drive (into folder id: 1AOuyIMBSsQhm-tE6aUrozLSIN3bOUVRo)
+0092.951 (0) Googledrive chunked upload: 7.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 47.2 / 16)
+0093.820 (0) Googledrive chunked upload: 22 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 47.3 / 16)
+0095.097 (0) Googledrive chunked upload: 51.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 47.3 / 16)
+0098.105 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0098.127 (0) Google Drive: OK: Archive backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-themes.zip uploaded in 6.14 seconds
+0098.133 (0) Recording as successfully uploaded: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-themes.zip
+0098.150 (0) Deleting local file: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-themes.zip: OK
+0098.517 (0) Google Drive: quota usage: used=37.5 MB, total=15360 MB, available=15322.5 MB
+0098.525 (0) Google Drive: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1AOuyIMBSsQhm-tE6aUrozLSIN3bOUVRo)
+0099.536 (0) Googledrive chunked upload: 11 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 47.2 / 16)
+0100.310 (0) Googledrive chunked upload: 32.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 47.3 / 16)
+0101.744 (0) Googledrive chunked upload: 76.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 47.3 / 16)
+0103.633 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0103.663 (0) Google Drive: OK: Archive backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-uploads.zip uploaded in 5.13 seconds
+0103.672 (0) Recording as successfully uploaded: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-uploads.zip
+0103.696 (0) Deleting local file: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-uploads.zip: OK
+0104.138 (0) Google Drive: quota usage: used=46.6 MB, total=15360 MB, available=15313.4 MB
+0104.147 (0) Google Drive: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-others.zip: Attempting to upload to Google Drive (into folder id: 1AOuyIMBSsQhm-tE6aUrozLSIN3bOUVRo)
+0105.963 (0) Googledrive chunked upload: 100 % uploaded
+0105.983 (0) Google Drive: OK: Archive backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-others.zip uploaded in 1.82 seconds
+0105.989 (0) Recording as successfully uploaded: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-others.zip
+0106.002 (0) Deleting local file: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-others.zip: OK
+0106.385 (0) Google Drive: quota usage: used=46.7 MB, total=15360 MB, available=15313.3 MB
+0106.393 (0) Google Drive: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db.gz: Attempting to upload to Google Drive (into folder id: 1AOuyIMBSsQhm-tE6aUrozLSIN3bOUVRo)
+0107.452 (0) Googledrive chunked upload: 42.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 47.2 / 16)
+0109.166 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0109.191 (0) Google Drive: OK: Archive backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db.gz uploaded in 2.79 seconds
+0109.199 (0) Recording as successfully uploaded: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db.gz
+0109.218 (0) Deleting local file: backup_2021-07-14-1101_A_S_S_I_L_A_H_1c6bf1688d8f-db.gz: OK
+0109.244 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0109.253 (0) Number of backup sets in history: 1; groups (db): 1
+0109.261 (0) Examining (for databases) backup set with group_id=0, nonce=1c6bf1688d8f, datestamp=1626260507 (Jul 14 2021 11:01:47)
+0109.269 (0) This backup set is the backup set just made, so will not be deleted.
+0109.269 (0) Number of backup sets in history: 1; groups (files): 1
+0109.275 (0) Examining (for files) backup set with nonce=1c6bf1688d8f, datestamp=1626260507 (Jul 14 2021 11:01:47)
+0109.275 (0) This backup set is the backup set just made, so will not be deleted.
+0109.283 (0) This backup set is the backup set just made, so will not be deleted.
+0109.284 (0) This backup set is the backup set just made, so will not be deleted.
+0109.284 (0) This backup set is the backup set just made, so will not be deleted.
+0109.284 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0109.292 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0109.309 (0) Resume backup (1c6bf1688d8f, 0): finish run
+0109.331 (0) Decremented the semaphore (fd) by 1
+0109.346 (0) Semaphore (fd) unlocked
+0109.355 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0109.380 (0) No email will/can be sent - the user has not configured an email address.
+0109.388 (0) The backup apparently succeeded and is now complete
